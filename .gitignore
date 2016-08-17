@@ -1,0 +1,12 @@
+#
+# .gitignore
+#
+
+# Ignore .gitignore itself
+#/.gitignore
+
+# Ignore CodeLite Project Files
+/*.project
+
+# Inore Geany Project Files
+/*.geany

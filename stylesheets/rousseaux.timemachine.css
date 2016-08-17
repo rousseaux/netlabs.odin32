@@ -1,0 +1,127 @@
+/*****************************************************************************\
+* rousseaux.timemachine.css :: stylesheet overrides                           *
+* --------------------------------------------------------------------------- *
+* These tweaks are for the GitHub TimeMachine theme.                          *
+* The TimeMachine theme is currently used for this Project Portal.            *
+\*****************************************************************************/
+
+body {
+  font-family: Monospace;
+}
+
+div.shell {
+  width: 800px;
+}
+
+span.banner-fix {
+  width: 800px;
+}
+
+table {
+  border-bottom: 0px solid #bdb6ad;
+}
+
+th {
+  text-align: left;
+}
+
+th {
+  display: table-cell;
+  padding: 2px 10px;
+  border: solid #ece4d8;
+  border-width: 0 2px 2px 0;
+  color: #cd596b;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  font-style: italic;
+}
+
+td {
+  font-style: italic;
+}
+
+footer {
+  background: none;
+}
+
+section#downloads,
+div#no-downloads {
+  background: none;
+}
+
+footer span.ribbon-inner a {
+  bottom: 0px;
+  font-family: Georgia;
+  text-transform: none;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer span.ribbon-inner p {
+  padding-top: 4px;
+  font: bold italic 14px/1 Georgia, Times, “Times New Roman”, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Monospace, Georgia, Times, “Times New Roman”, serif;
+  text-align: center;
+}
+
+h1.title {
+  color: darkblue;
+  font-family: Monospace;
+  font-style: normal;
+  font-size: 3em;
+  text-transform: none;
+}
+
+h2 {
+  background-color: #7c334f;
+  font: bold italic 1em/1.5 Georgia, Times, “Times New Roman”, serif;
+  color: #e69b95;
+  padding-bottom: 14px;
+  margin-top: 0px;
+}
+
+h3 {
+    font-size: 1em;
+    color: #0000a0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #ffd588;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 0.8em;
+    color: #606060;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+p {
+  text-align: center;
+  color: #303030;
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+p.widget-description {
+  font-size: 0.7em;
+}
+
+code {
+    font-size: 0.9em;
+    color: #000080;
+    background-color: #eeeeee;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#main {
+  margin-top: 20px;
+  padding: 0 20px 90px;
+  background-color: #ffffc0;
+}
